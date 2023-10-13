@@ -15,8 +15,8 @@ catch(PDOException $e)
     echo "Connection failed: " . $e->getMessage();
     }
 
-include_once("connection.php");
-$stmt = $conn->prepare("DROP TABLE IF EXISTS TblUser;
+//include_once("connection.php");
+$stmt = $conn->prepare("DROP TABLE IF EXISTS TblUsers;
 CREATE TABLE TblUsers 
 (UserID INT(4) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 Gender VARCHAR(1) NOT NULL,
