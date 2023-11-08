@@ -24,7 +24,7 @@ Forename VARCHAR(20) NOT NULL,
 Password VARCHAR(20) NOT NULL,
 House VARCHAR(20) NOT NULL,
 Year  INT(2) NOT NULL,
-BooksBorowed INT(2) NOT NULL);
+BooksBorowed INT(2) NOT NULL)");
 $stmt->execute();
 $stmt->closeCursor();
 ?>
